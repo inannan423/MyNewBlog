@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u8ba4\u8bc6Vue\u6846\u67b6","permalink":"/MyNewBlog/blog/first-blog-post"}]}')}}]);
