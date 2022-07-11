@@ -10,7 +10,7 @@ const config = {
   title: 'Jetzihan',
   tagline: '',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/MyNewBlog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
