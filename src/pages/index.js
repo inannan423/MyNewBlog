@@ -30,7 +30,7 @@ function HomepageHeader() {
             </div>
           </div>
           <div className={clsx('sidepic', styles.sidepic)}>
-            <img className={clsx('side', styles.side)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sidepic.png" />
+            <img className={clsx('side', styles.side)} src="img/sidepic.png" />
           </div>
         </div>
       </div>
