@@ -66,17 +66,25 @@ const config = {
         },
         items: [
           {
-            to: '/',
-            position: 'right',
-            label: 'Home',
-          },
+          label: 'Notes',
+          position: 'right',
+          items: [
+            {
+              label: 'FrontEnd',
+              to: 'docs/front/',
+            },
+            {
+              label: 'Study',
+              to: 'docs/study/',
+            },
+          ],
+        },
+          { to: '/blog', label: 'Blog', position: 'right' },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Front-end',
-          },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          label: 'Links',
+          position: 'right',
+          to: 'website',
+        },
           {
             href: 'https://github.com/inannan423',
             label: 'GitHub',
@@ -153,7 +161,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<br/> <a href="https://www.netlify.com/"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>  <br/> Copyright © ${new Date().getFullYear()} Build with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
+        copyright: `<br/> <a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>  <br/> Copyright © ${new Date().getFullYear()} Build with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

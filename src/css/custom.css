@@ -91,3 +91,11 @@ a:hover{
   -moz-box-shadow: 0px 0px 25px rgba(132, 167, 156, 0.3);
   -webkit-box-shadow: 0px 0px 25px rgba(132, 167, 156, 0.3);
 }
+.pagination-nav__link{
+  border: 2px solid var(--ifm-link-color);
+  transition: all 0.5s ease-in-out;
+}
+.pagination-nav__link:hover{
+  background-color: #12a1f44a;
+  box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.174);
+}
