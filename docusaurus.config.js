@@ -100,9 +100,12 @@ const config = {
             items: [
               {
                 label: 'Front-end',
-                to: '/docs/intro',
+                to: '/docs/front',
               },
-              
+              {
+                label: 'Study',
+                to: '/docs/study',
+              },
             ],
           },
           {
