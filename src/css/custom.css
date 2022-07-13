@@ -99,3 +99,70 @@ a:hover{
   background-color: #12a1f44a;
   box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.174);
 }
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  --ifm-heading-color: hsl(214deg, 78%, 17%);
+}
+
+html[data-theme='dark'] h1,
+html[data-theme='dark'] h2,
+html[data-theme='dark'] h3,
+html[data-theme='dark'] h4,
+html[data-theme='dark'] h5,
+html[data-theme='dark'] h6 {
+  --ifm-heading-color: hsl(214deg, 100%, 96%);
+}
+
+.main-wrapper h1,
+.markdown > h1 {
+  font-size: 2.2em;
+}
+
+.markdown > h2 {
+  font-size: 1.7em;
+  border-bottom: 1px solid #338bff;
+  margin-top: 1rem;
+}
+
+.markdown > h3 {
+  font-size: 1.5em;
+}
+
+.markdown > h2:before {
+  margin-right: 0.4em;
+  display: inline-block;
+}
+
+.markdown > h2 > a {
+  display: inline-block;
+}
+
+.markdown > h2:before {
+  background: var(--ifm-color-primary);
+  color: transparent;
+  content: '.';
+  
+}
+
+article > p,
+article > a,
+article > span,
+article > li {
+  line-height: 1.8em;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* letter-spacing: 0.04em; */
+  /* text-align: justify; */
+}
+
+.alert{
+  border: 2px solid var(--ifm-alert-border-color) ;
+}
+.backToTopButton_node_modules-\@docusaurus-theme-classic-lib-theme-BackToTopButton-styles-module{
+  background-color: #2e80ec8d !important;
+  border: 2px solid #2e80ec;
+}

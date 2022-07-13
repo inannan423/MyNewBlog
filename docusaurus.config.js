@@ -54,7 +54,23 @@ const config = {
       }),
     ],
   ],
-
+  themes: [
+    //在线编码插件
+    '@docusaurus/theme-live-codeblock',
+    [
+      //搜索插件
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
