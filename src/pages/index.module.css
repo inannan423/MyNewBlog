@@ -25,9 +25,9 @@
 
 .sidepic{
   /* 右边图 */
-  width: 60%;
+  width: 55rem;
   height: auto;
-  float: left;
+  float: right;
 }
 .side{
   height: 100%;
