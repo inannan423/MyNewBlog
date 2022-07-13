@@ -78,6 +78,13 @@ export const websiteData: WebsiteCategory[] = [
     name: '工具',
     websites: [
       {
+        name: 'Markdown',
+        desc: 'Markdown语法',
+        logo: 'https://markdown.com.cn/hero.png',
+        href: 'https://markdown.com.cn/',
+        tags: ['教程'],
+      },
+      {
         name: '菜鸟教程',
         desc: '编程技术文档',
         logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/FD715D45-8A4B-4B77-BDA1-D75D7226AACB.jpeg-1609660318596',

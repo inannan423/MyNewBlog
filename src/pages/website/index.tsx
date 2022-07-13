@@ -69,7 +69,7 @@ export default function Websites() {
           <div className='container'>
 
             {/*  <p className={styles.heroDesc}>{description}</p> */}
-            <img className={styles.toppic} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/univ1.png" />
+            <img className={styles.toppic} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/univ2.png" />
             {/* <h1 className={styles.heroTitle}>常用链接</h1> */}
           </div>
         </header>
