@@ -4,10 +4,130 @@
         <title>Jetzihan Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
         <description>Jetzihan Blog</description>
-        <lastBuildDate>Tue, 12 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[在线编码器]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/codingbox</link>
+            <guid>codingbox</guid>
+            <pubDate>Wed, 13 Jul 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">JavaScript</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Python</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Java</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">html</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">function helloWorld() {
+  console.log('Hello, world!');
+}</textarea><pre aria-hidden="true" style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:relative;pointer-events:none;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">helloWorld</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'Hello, world!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span></div></pre><style>
+/**
+ * Reset the text fill color so that placeholder is visible
+ */
+.npm__react-simple-code-editor__textarea:empty {
+  -webkit-text-fill-color: inherit !important;
+}
+
+/**
+ * Hack to apply on some CSS on IE10 and IE11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /**
+    * IE doesn't support '-webkit-text-fill-color'
+    * So we use 'color: transparent' to make the text transparent on IE
+    * Unlike other browsers, it doesn't affect caret color in IE
+    */
+  .npm__react-simple-code-editor__textarea {
+    color: transparent !important;
+  }
+
+  .npm__react-simple-code-editor__textarea::selection {
+    background-color: #accef7 !important;
+    color: transparent !important;
+  }
+}
+</style></div><div class="playgroundHeader_dyrN">结果</div><div class="playgroundPreview_DzOI"><div>Loading...</div></div></div></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">def hello_world():
+  print("Hello, world!")</textarea><pre aria-hidden="true" style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:relative;pointer-events:none;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><div class="token-line" style="color:#393A34"><span class="token plain">def </span><span class="token function" style="color:#d73a49">hello_world</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Hello, world!"</span><span class="token punctuation" style="color:#393A34">)</span></div></pre><style>
+/**
+ * Reset the text fill color so that placeholder is visible
+ */
+.npm__react-simple-code-editor__textarea:empty {
+  -webkit-text-fill-color: inherit !important;
+}
+
+/**
+ * Hack to apply on some CSS on IE10 and IE11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /**
+    * IE doesn't support '-webkit-text-fill-color'
+    * So we use 'color: transparent' to make the text transparent on IE
+    * Unlike other browsers, it doesn't affect caret color in IE
+    */
+  .npm__react-simple-code-editor__textarea {
+    color: transparent !important;
+  }
+
+  .npm__react-simple-code-editor__textarea::selection {
+    background-color: #accef7 !important;
+    color: transparent !important;
+  }
+}
+</style></div><div class="playgroundHeader_dyrN">结果</div><div class="playgroundPreview_DzOI"><div>Loading...</div></div></div></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">class HelloWorld {
+  public static void main(String args[]) {
+    System.out.println("Hello, World");
+  }
+}</textarea><pre aria-hidden="true" style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:relative;pointer-events:none;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">HelloWorld</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">public</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">static</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">void</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">main</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter known-class-name class-name">String</span><span class="token parameter"> args</span><span class="token parameter punctuation" style="color:#393A34">[</span><span class="token parameter punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token maybe-class-name">System</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">out</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">println</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Hello, World"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span></div></pre><style>
+/**
+ * Reset the text fill color so that placeholder is visible
+ */
+.npm__react-simple-code-editor__textarea:empty {
+  -webkit-text-fill-color: inherit !important;
+}
+
+/**
+ * Hack to apply on some CSS on IE10 and IE11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /**
+    * IE doesn't support '-webkit-text-fill-color'
+    * So we use 'color: transparent' to make the text transparent on IE
+    * Unlike other browsers, it doesn't affect caret color in IE
+    */
+  .npm__react-simple-code-editor__textarea {
+    color: transparent !important;
+  }
+
+  .npm__react-simple-code-editor__textarea::selection {
+    background-color: #accef7 !important;
+    color: transparent !important;
+  }
+}
+</style></div><div class="playgroundHeader_dyrN">结果</div><div class="playgroundPreview_DzOI"><div>Loading...</div></div></div></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">&lt;div&gt;Hello World!&lt;/div&gt;</textarea><pre aria-hidden="true" style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:relative;pointer-events:none;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><div class="token-line" style="color:#393A34"><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">div</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text">Hello World!</span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">div</span><span class="token tag punctuation" style="color:#393A34">&gt;</span></div></pre><style>
+/**
+ * Reset the text fill color so that placeholder is visible
+ */
+.npm__react-simple-code-editor__textarea:empty {
+  -webkit-text-fill-color: inherit !important;
+}
+
+/**
+ * Hack to apply on some CSS on IE10 and IE11
+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /**
+    * IE doesn't support '-webkit-text-fill-color'
+    * So we use 'color: transparent' to make the text transparent on IE
+    * Unlike other browsers, it doesn't affect caret color in IE
+    */
+  .npm__react-simple-code-editor__textarea {
+    color: transparent !important;
+  }
+
+  .npm__react-simple-code-editor__textarea::selection {
+    background-color: #accef7 !important;
+    color: transparent !important;
+  }
+}
+</style></div><div class="playgroundHeader_dyrN">结果</div><div class="playgroundPreview_DzOI"><div>Loading...</div></div></div></div></div></div>]]></content:encoded>
+            <category>Coding</category>
+            <category>React</category>
+        </item>
         <item>
             <title><![CDATA[使用百度API实现老照片上色]]></title>
             <link>https://your-docusaurus-test-site.com/blog/baiduoldpic</link>
