@@ -40,50 +40,56 @@
   --ifm-color-primary-lightest: #f2fbff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.navbar__title{
+
+.navbar__title {
   opacity: 0;
 }
-a{
+
+a {
   transition: all .4s ease-in-out;
 }
+
 /* 去除连接的下划线 */
-a:hover{
+a:hover {
   text-decoration: none !important;
 }
-::-webkit-scrollbar {
-      width: 3px;
-      height: 3px;
-    }
- 
-    /* 滚动条有滑块的轨道部分 */
-    ::-webkit-scrollbar-track-piece {
-      background-color: transparent;
-      border-radius: 5px;
-    }
- 
-    /* 滚动条滑块(竖向:vertical 横向:horizontal) */
-    ::-webkit-scrollbar-thumb {
-      cursor: pointer;
-      background-color:#12a1f4;
-      border-radius: 5px;
-    }
- 
-    /* 滚动条滑块hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background-color: #6e6c6c;
-    }
- 
-    /* 同时有垂直和水平滚动条时交汇的部分 */
-    ::-webkit-scrollbar-corner {
-      display: block;    /* 修复交汇时出现的白块 */
-    }
 
-.theme-doc-sidebar-item-link .theme-doc-sidebar-item-link-level-2 .menu__list-item{
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* 滚动条有滑块的轨道部分 */
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* 滚动条滑块(竖向:vertical 横向:horizontal) */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: #12a1f4;
+  border-radius: 5px;
+}
+
+/* 滚动条滑块hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6e6c6c;
+}
+
+/* 同时有垂直和水平滚动条时交汇的部分 */
+::-webkit-scrollbar-corner {
+  display: block;
+  /* 修复交汇时出现的白块 */
+}
+
+.theme-doc-sidebar-item-link .theme-doc-sidebar-item-link-level-2 .menu__list-item {
   transition: all 1s ease-in-out;
 }
-.markdown img{
+
+.markdown img {
   border-radius: 9px;
-/* box-shadow: 0 0 10px rgb(182, 250, 255); */
+  /* box-shadow: 0 0 10px rgb(182, 250, 255); */
   margin-top: 27px;
   margin-bottom: 27px;
   box-shadow: 0px 0px 25px rgba(132, 167, 156, 0.3);
@@ -91,11 +97,13 @@ a:hover{
   -moz-box-shadow: 0px 0px 25px rgba(132, 167, 156, 0.3);
   -webkit-box-shadow: 0px 0px 25px rgba(132, 167, 156, 0.3);
 }
-.pagination-nav__link{
+
+.pagination-nav__link {
   border: 2px solid var(--ifm-link-color);
   transition: all 0.5s ease-in-out;
 }
-.pagination-nav__link:hover{
+
+.pagination-nav__link:hover {
   background-color: #12a1f44a;
   box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.174);
 }
@@ -119,50 +127,51 @@ html[data-theme='dark'] h6 {
 }
 
 .main-wrapper h1,
-.markdown > h1 {
+.markdown>h1 {
   font-size: 2.2em;
 }
 
-.markdown > h2 {
+.markdown>h2 {
   font-size: 1.7em;
   border-bottom: 1px solid #338bff;
   margin-top: 1rem;
 }
 
-.markdown > h3 {
+.markdown>h3 {
   font-size: 1.5em;
 }
 
-.markdown > h2:before {
+.markdown>h2:before {
   margin-right: 0.4em;
   display: inline-block;
 }
 
-.markdown > h2 > a {
+.markdown>h2>a {
   display: inline-block;
 }
 
-.markdown > h2:before {
+.markdown>h2:before {
   background: var(--ifm-color-primary);
   color: transparent;
   content: '.';
-  
+
 }
 
-article > p,
-article > a,
-article > span,
-article > li {
+article>p,
+article>a,
+article>span,
+article>li {
   line-height: 1.8em;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /* letter-spacing: 0.04em; */
   /* text-align: justify; */
 }
 
-.alert{
-  border: 2px solid var(--ifm-alert-border-color) ;
+.alert {
+  border: 2px solid var(--ifm-alert-border-color);
 }
-.backToTopButton_node_modules-\@docusaurus-theme-classic-lib-theme-BackToTopButton-styles-module{
+
+.backToTopButton_node_modules-\@docusaurus-theme-classic-lib-theme-BackToTopButton-styles-module {
   background-color: #2e80ec8d !important;
-  border: 2px solid #2e80ec;
+  border: 2px solid #2e80ec !important;
 }
