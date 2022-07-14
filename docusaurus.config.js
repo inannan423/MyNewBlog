@@ -96,6 +96,7 @@ const config = {
           ],
         },
           { to: '/blog', label: 'Blog', position: 'right' },
+          // { to: 'archive', label: 'Archive', position: 'right' },
           {
           label: 'Links',
           position: 'right',
@@ -180,7 +181,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<br/> <a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>  <br/> Copyright © ${new Date().getFullYear()} Build with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
+        copyright: `<br/> <a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>  <br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

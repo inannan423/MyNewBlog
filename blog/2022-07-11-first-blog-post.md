@@ -79,7 +79,7 @@ var. vm = new Vue({
 Vue生命周期是指vue实例对象从创建之初到销毁的过程，vue所有功能的实现都是围绕其生命周期进行的，在生命周期的不同阶段调用对应的钩子函数可以实现组件数据管理和DOM渲染两大重要功能。  
 ![1](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220713165130.png)  
 
-## Vue-cli编译的过程
+## Vue-cli
 
 Vue CLI 是一个基于 Vue.js 进行快速开发的完整系统，提供：  
 

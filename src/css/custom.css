@@ -104,8 +104,8 @@ a:hover {
 }
 
 .pagination-nav__link:hover {
-  background-color: #12a1f44a;
-  box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.174);
+  background-color: #a1d8f71b;
+  box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.743);
 }
 
 html h1,
@@ -173,5 +173,17 @@ article>li {
 
 .backToTopButton_node_modules-\@docusaurus-theme-classic-lib-theme-BackToTopButton-styles-module {
   background-color: #2e80ec8d !important;
+  border: 2px solid #2e80ec !important;
+}
+
+.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module{
+  box-shadow: 3px 3px 1px 0.5px rgba(0, 170, 255, 0.134) !important;
+  border: 2px solid #2e80ec !important;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module:hover{
+  background-color: #2e80ec2e !important;
+  box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.225) !important;
   border: 2px solid #2e80ec !important;
 }
