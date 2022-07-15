@@ -41,6 +41,7 @@ const config = {
           editUrl:
             'https://github.com/inannan423/MyNewBlog/tree/main/',
         },
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -80,6 +81,7 @@ const config = {
           alt: 'Jetzihan',
           src: 'img/logo.png',
         },
+        
         items: [
           {
           label: 'Notes',
@@ -109,6 +111,11 @@ const config = {
           },
         ],
       },
+      metadata: [{ name: 'baidu-site-verification', content: 'code-MQmevVEZ6Q' }],
+    //   announcementBar: {
+    //   id: 'announcementBar-3',
+    //   content: 'In code we trust.',
+    // },
       footer: {
         style: 'light',
         links: [

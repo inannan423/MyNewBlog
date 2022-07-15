@@ -171,7 +171,7 @@ article>li {
   border: 2px solid var(--ifm-alert-border-color);
 }
 
-.backToTopButton_node_modules-\@docusaurus-theme-classic-lib-theme-BackToTopButton-styles-module {
+.theme-back-to-top-button {
   background-color: #2e80ec8d !important;
   border: 2px solid #2e80ec !important;
 }
