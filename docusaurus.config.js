@@ -111,6 +111,7 @@ const config = {
           },
         ],
       },
+      // 链接
       metadata: [{ name: 'baidu-site-verification', content: 'code-MQmevVEZ6Q' }],
     //   announcementBar: {
     //   id: 'announcementBar-3',
